@@ -14,6 +14,12 @@
 //     console.log(key)
 // }
 
-for (const key in {a:1, b:2}) {
-    console.log(key)
-}
+//for (const key in {a:1, b:2}) {
+//    console.log(key)
+//}
+
+
+f = function (){}
+o = {}
+console.log(typeof f)
+console.log(typeof o)
